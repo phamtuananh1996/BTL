@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C9D79D12-5348-4018-AA34-AA8FEB73611C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DAN</RootNamespace>
+    <AssemblyName>DAN</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar.SuperGrid, Version=11.2.0.1, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar2, Version=11.2.0.1, Culture=neutral, PublicKeyToken=c39c3242a43eee2b" />
+    <Reference Include="DevComponents.Instrumentation, Version=11.2.0.1, Culture=neutral, PublicKeyToken=bc4a9d761ea44ef0" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CauHinh.cs" />
+    <Compile Include="Fr_dang_nhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fr_dang_nhap.Designer.cs">
+      <DependentUpon>Fr_dang_nhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fr_interface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fr_interface.Designer.cs">
+      <DependentUpon>Fr_interface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Fr_trang_chu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fr_trang_chu.Designer.cs">
+      <DependentUpon>Fr_trang_chu.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Fr_dang_nhap.resx">
+      <DependentUpon>Fr_dang_nhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fr_interface.resx">
+      <DependentUpon>Fr_interface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fr_trang_chu.resx">
+      <DependentUpon>Fr_trang_chu.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\54541593.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\troi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\smart-pc-locker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ShortICon\key.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ShortICon\key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ShortICon\Alarm-Tick-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ShortICon\cross-shield-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ShortICon\lock-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1-25-W-x2-H-m-Top-Quality-Wedding-Lover-Personalized-Portrait-Photography-Backdrop-font-b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1-25-W-x2-H-m-Top-Quality-Wedding-Lover-Personalized-Portrait-Photography-Backdrop-font-b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\key-delete-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\d007c6ca-1348-4a87-813f-ad04e2a57ee4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\user-male-white-blue-bald-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\user-male-white-blue-bald-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\makefg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\lock-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-Log-Off-icon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

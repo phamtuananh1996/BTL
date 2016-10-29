@@ -1,0 +1,22 @@
+c:\users\administrator\documents\visual studio 2010\Projects\DAN\DAN\bin\Debug\DAN.exe
+c:\users\administrator\documents\visual studio 2010\Projects\DAN\DAN\bin\Debug\DAN.pdb
+c:\users\administrator\documents\visual studio 2010\Projects\DAN\DAN\obj\x86\Debug\DAN.Properties.Resources.resources
+c:\users\administrator\documents\visual studio 2010\Projects\DAN\DAN\obj\x86\Debug\DAN.csproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2010\Projects\DAN\DAN\obj\x86\Debug\DAN.exe
+c:\users\administrator\documents\visual studio 2010\Projects\DAN\DAN\obj\x86\Debug\DAN.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\DAN\DAN\obj\x86\Debug\DAN.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\DAN\DAN\obj\x86\Debug\DAN.FrDangNhap.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\DAN\DAN\obj\x86\Debug\DAN.FrDangKi.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\DAN\DAN\obj\x86\Debug\DAN.Interface.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\DAN\DAN\obj\x86\Debug\DAN.TrangChu.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\DAN\DAN\obj\x86\Debug\DAN.Form2.resources
+C:\Users\tuan_anh\Desktop\DAN\DAN\DAN\obj\x86\Debug\DAN.exe
+C:\Users\tuan_anh\Desktop\DAN\DAN\DAN\obj\x86\Debug\DAN.pdb
+C:\Users\tuan_anh\Desktop\DAN\DAN\DAN\obj\x86\Debug\DAN.csprojResolveAssemblyReference.cache
+C:\Users\tuan_anh\Desktop\DAN\DAN\DAN\obj\x86\Debug\DAN.FrDangNhap.resources
+C:\Users\tuan_anh\Desktop\DAN\DAN\DAN\obj\x86\Debug\DAN.Properties.Resources.resources
+C:\Users\tuan_anh\Desktop\DAN\DAN\DAN\obj\x86\Debug\DAN.csproj.GenerateResource.Cache
+C:\Users\tuan_anh\Desktop\DAN\DAN\DAN\bin\Debug\DAN.exe
+C:\Users\tuan_anh\Desktop\DAN\DAN\DAN\bin\Debug\DAN.pdb
+C:\Users\tuan_anh\Desktop\DAN\DAN\DAN\obj\x86\Debug\DAN.Fr_interface.resources
+C:\Users\tuan_anh\Desktop\DAN\DAN\DAN\obj\x86\Debug\DAN.Fr_trang_chu.resources
